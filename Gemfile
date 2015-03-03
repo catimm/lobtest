@@ -32,6 +32,7 @@ gem 'bootstrap-sass', '3.3.3'
 gem 'bootstrap-social-rails', '~> 4.8.0'
 gem 'font-awesome-sass', '~> 4.3.0'
 gem 'thin'
+gem 'pg'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
