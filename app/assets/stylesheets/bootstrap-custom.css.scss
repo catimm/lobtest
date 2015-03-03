@@ -1,0 +1,258 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap-social";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,300);
+
+body {
+  overflow-x: hidden;
+}
+.navbar-default {
+  background-color: #176992;
+  border-color: #125475;
+  min-height: 72px;
+}
+.navbar-logo {
+  img {
+    height: 38px;
+    margin-top: 17px;
+  }
+}
+.navbar-right {
+  ul {
+    margin-top: 11px;
+  }
+}
+.navLinks {
+  a {
+    color: #fff !important;
+  }
+}
+
+.banner {
+  padding-top: 72px;
+  background-attachment: scroll, scroll;
+  background-clip: border-box, border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://s3-us-west-2.amazonaws.com/lob-assets/bg-home-main.jpg");
+  background-origin: padding-box, padding-box;
+  background-position: 0 0%, left center;
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  height: 582px;
+  position: relative;
+  width: 100%;
+}
+.btn-white-inverse {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5em;
+  h1 {
+    color: #fff;
+    font-size: 3.75em;
+    font-weight: 300;
+    font-family: Lato;
+  }
+  h3 {
+    padding: 0 1.25em;
+    color: #fff;
+    line-height: 36px;
+    margin-bottom: 1.5em;
+    font-family: Lato;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+}
+.customers {
+    background-color: rgba(250, 250, 250, 0.7);
+    background-position: 0 28px;
+    bottom: 0;
+    height: 84px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 102.5%;
+}.customer {
+    background-image: url("https://s3-us-west-2.amazonaws.com/lob-assets/customer_sprite.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 470px;
+    height: 47px;
+    margin: 20px auto;
+    width: 62px;
+}
+.munchery {
+    background-position: 0 -188px;
+    width: 75px;
+}
+.lendup {
+    background-position: 0 -94px;
+}
+.twice {
+    background-position: 0 -282px;
+}
+.intuit {
+    background-position: 0 0;
+}
+.ubiquiti {
+    background-position: 0 -376px;
+}
+section {
+  .container {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+}
+.sectionFont {
+  h2, h3, h4, p {
+    font-family: Lato;
+    font-weight: 300;
+  }
+}
+.sectionHeadline {
+  padding-top: 0.75em;
+  padding-bottom: 1em;
+}
+.nonDev {
+  font-weight: 300;
+}
+.valuePropRow {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  .col-sm-5 {
+    padding: 0 2em;
+  }
+  .col-sm-3 {
+    padding: 0 2em;
+  }
+}
+.last.valuePropRow {
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+}
+.service-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    height: 72px;
+    vertical-align: middle;
+    width: 72px;
+}
+.simple-postcard-service-icon {
+    background-color: #776ebb;
+    background-image: url("https://s3-us-west-2.amazonaws.com/lob-assets/icon-service-postcard.svg");
+}
+.simple-print-service-icon {
+    background-color: #c56446;
+    background-image: url("https://s3-us-west-2.amazonaws.com/lob-assets/icon-service-sps.svg");
+}
+.simple-area-mail-icon {
+    background-color: #eece45;
+    background-image: url("https://s3-us-west-2.amazonaws.com/lob-assets/icon-service-sam.svg");
+}
+.address-verification-icon {
+    background-color: #9dd6ff;
+    background-image: url("https://s3-us-west-2.amazonaws.com/lob-assets/icon-service-verify.svg");
+}
+.dark-bg {
+    background-color: #F3F3F3;
+    border-top: 1px solid #E9E9E9;
+    padding-bottom: 2em;
+}
+.api-example {
+  margin-top: 1.75em;
+}
+.code-snippet {
+  width: 615px;
+}
+.api {
+  text-align: left;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #d5d5d5 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+.btn-blue-inverse {
+    background-color: transparent;
+    border-color: #176992;
+    color: #176992;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#devSend {
+  color: #337ab7;
+}
+.last-cta-button {
+  margin: 2em 0;
+}
+.footer {
+  background-color: #176992;
+  border-color: #125475;
+  height: 200px;
+  .row {
+    text-align: center;
+
+  }
+  .social {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    a {
+      border: 1px solid #fff;
+      border-radius: 50%;
+      display: inline-block;
+      font-size: 12px;
+      height: 40px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      width: 40px;
+    }
+  }
+  a {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .footer-menu-divider {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .copyright {
+    margin-top: 20px;
+    p {
+      color: #fff;
+      font-size: 0.75em;
+      letter-spacing: 2px;
+      font-weight: 300;
+    } 
+  }
+}
